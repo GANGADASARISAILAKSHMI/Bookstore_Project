@@ -1,0 +1,8 @@
+const User = require('../models/User');
+const jwt = require('jsonwebtoken');
+const bcrypt = require('bcrypt');
+const config = require('../config/config');
+exports.signup = async (req, res) => {
+};
+exports.signin = async (req, res) => {
+};
