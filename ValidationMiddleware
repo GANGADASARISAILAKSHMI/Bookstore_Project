@@ -1,0 +1,3 @@
+const { validateUserRegistration } = require('../utils/validation');
+router.post('/signup', validateUserRegistration, async (req, res) => {
+});
